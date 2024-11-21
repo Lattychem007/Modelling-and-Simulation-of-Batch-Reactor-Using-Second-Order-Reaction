@@ -7,31 +7,15 @@ The workhorses of chemical engineering are batch reactors, which allow us to mix
 
 The aim of this project is to simulate the reaction kinetics and design equations associated with a batch reactor, focusing on understanding the underlying chemical processes and dynamic behavior. This includes analyzing the rate of reactions, determining key parameters influencing reaction efficiency, and applying mathematical modeling to represent the reactor's performance. Ultimately, the project seeks to develop and implement optimization techniques to improve the reactor's efficiency, enhance product yield, reduce operational costs, and ensure sustainable and safe process operation.
 # TABLE OF CONTENTS
-# Introduction
- - Overview of Batch Reactors
-- Importance in Chemical Engineering
-- Scope and Objectives of the Project
-# Advantages and Disadvantages of Batch Reactors
-- Advantages
-- Disadvantages
-# Reaction Kinetics and Design Equations
-- Constant-Volume Batch Reactor Design Equation
-- Derivation and Integration of the Design Equation
-# Temperature Effects on Reaction Kinetics
-- Arrhenius Equation and Parameters
-- Impact of Temperature on Reaction Rates
-- Trade-offs Between Higher Temperatures and Side Reactions
-# Strategies for Optimizing Batch Reactor Performance
-- Optimal Temperature Selection
- - Initial Concentration Considerations
-- Reaction Time Optimization
- - Mitigating Side Reactions and Degradation
-# Modeling and Simulation of Batch Reactor
-Developing a Mathematical Model
- Numerical Simulation of Reaction Kinetics
-# Validation 
-# Applications and Case Studies
- Industrial Applications of Batch Reactors
+ - Introduction
+ - Advantages and Disadvantages of Batch Reactors
+  - Reaction Kinetics and Design Equations
+   -Temperature Effects on Reaction Kinetics
+  -Strategies for Optimizing Batch Reactor Performance
+  - Modeling and Simulation of Batch Reactor
+   - Model Validation 
+   - Applications and Case Studies
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Advantages and Disadvantages of Batch Reactor
 Advantages
