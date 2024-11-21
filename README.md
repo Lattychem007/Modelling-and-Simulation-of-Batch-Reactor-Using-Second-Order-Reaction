@@ -1,5 +1,6 @@
 # MODELLING AND SIMULATION OF BATCH REACTOR USING SECOND ORDER REACTION
 ![image](https://github.com/user-attachments/assets/073ad8db-183c-42ec-92cf-74e89de27f08)
+
 #INTRODUCTION
 The workhorses of chemical engineering are batch reactors, which allow us to mix materials and observe the results. They are ideal for testing new concepts and small-scale production. However, there are trade-offs between their ease of use and flexibility and their increased prices and lower efficiency. 
 
@@ -18,15 +19,16 @@ Higher labor costs associated with manual operation and supervision of each batc
 
 # DESIGN EQUATIONS FOR BATCH REACTORS
 Constant-Volume Batch Reactor Design Equation
-For a constant-volume batch reactor with a single reaction, the design equation is: dCA/dt=−rAdCA/dt=−rA, where CACA is the concentration of reactant AA and rArA is the rate of consumption of AA
+For a constant-volume batch reactor with a single reaction, the design equation is: dCA/dt=−rAdCA/dt=−rA, where CACA is the concentration of reactant A and rA is the rate of consumption of A.
+
 The design equation can be solved by separating variables and integrating, yielding: ∫dCA/(−rA)= ∫dt∫dCA/(−rA)=∫dt, with limits from CA0CA0 to CACA and from 00 to tt, respectively
 	CA0 CB0 is the initial concentration of reactant A and B
   t is the reaction time
  # TEMPERATURE EFFECTS ON REACTION KINETICS
-•	Temperature has a significant effect on reaction rates, and the Arrhenius equation can be used to determine the activation energy and pre-exponential factor for a reaction
-	Arrhenius equation: k=Aexp(−Ea/RT)k=Aexp(−Ea/RT), where kk is the reaction rate constant, AA is the pre-exponential factor, EaEa is the activation energy, RR is the 
-  universal gas constant, and TT is the absolute temperature.
-	Higher temperatures generally increase reaction rates but may also promote side reactions or catalyst deactivation
+  Temperature has a significant effect on reaction rates, and the Arrhenius equation can be used to determine the activation energy and pre-exponential factor for a reaction
+Arrhenius equation: k=Aexp(−Ea/RT)k=Aexp(−Ea/RT), where k is the reaction rate constant, A is the pre-exponential factor, EaEa is the activation energy, R is the 
+universal gas constant, and T is the absolute temperature.
+Higher temperatures generally increase reaction rates but may also promote side reactions or catalyst deactivation
 
 # STRATEGIES FOR OPTIMIZING BATCH REACTOR PERFORMANCE
 Optimization of batch reactor operation involves determining the optimal temperature, initial concentrations, and reaction time to maximize yield and selectivity
