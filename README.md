@@ -6,6 +6,7 @@
 The workhorses of chemical engineering are batch reactors, which allow us to mix materials and observe the results. They are ideal for testing new concepts and small-scale production. However, there are trade-offs between their ease of use and flexibility and their increased prices and lower efficiency. 
 
 The aim of this project is to simulate the reaction kinetics and design equations associated with a batch reactor, focusing on understanding the underlying chemical processes and dynamic behavior. This includes analyzing the rate of reactions, determining key parameters influencing reaction efficiency, and applying mathematical modeling to represent the reactor's performance. Ultimately, the project seeks to develop and implement optimization techniques to improve the reactor's efficiency, enhance product yield, reduce operational costs, and ensure sustainable and safe process operation.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # TABLE OF CONTENTS
  - Introduction
  - Advantages and Disadvantages of Batch Reactors
@@ -18,12 +19,14 @@ The aim of this project is to simulate the reaction kinetics and design equation
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Advantages and Disadvantages of Batch Reactor
-Advantages
+-Advantages
+
 Advantages of batch reactors include flexibility in operation, ease of maintenance, 
 and the ability to handle high-viscosity materials or reactions with solid phases
 Flexibility allows for the production of various products using the same equipment (pharmaceuticals, specialty chemicals).
 
 -Disadvantages
+
 Disadvantages of batch reactors include lower productivity, higher labour costs, and potential variations in product quality between batches.
 Lower productivity compared to continuous reactors due to downtime for loading, unloading, and cleaning.
 Higher labor costs associated with manual operation and supervision of each batch (charging, sampling, adjusting).
@@ -33,7 +36,7 @@ Constant-Volume Batch Reactor Design Equation
 For a constant-volume batch reactor with a single reaction, the design equation is: dCA/dt=−rAdCA/dt=−rA, where CACA is the concentration of reactant A and rA is the rate of consumption of A.
 
 The design equation can be solved by separating variables and integrating, yielding: ∫dCA/(−rA)= ∫dt∫dCA/(−rA)=∫dt, with limits from CA0 to CA and from 0 to t, respectively
-	CA0 CB0 is the initial concentration of reactant A and B
+CA0 CB0 is the initial concentration of reactant A and B
   t is the reaction time
  # TEMPERATURE EFFECTS ON REACTION KINETICS
   Temperature has a significant effect on reaction rates, and the Arrhenius equation can be used to determine the activation energy and pre-exponential factor for a reaction
