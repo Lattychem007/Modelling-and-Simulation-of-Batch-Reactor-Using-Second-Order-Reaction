@@ -1,12 +1,13 @@
 # MODELLING AND SIMULATION OF BATCH REACTOR USING SECOND ORDER REACTION
 ![image](https://github.com/user-attachments/assets/073ad8db-183c-42ec-92cf-74e89de27f08)
 
-#INTRODUCTION
+# INTRODUCTION
+
 The workhorses of chemical engineering are batch reactors, which allow us to mix materials and observe the results. They are ideal for testing new concepts and small-scale production. However, there are trade-offs between their ease of use and flexibility and their increased prices and lower efficiency. 
 
 The aim of this project is to simulate the reaction kinetics and design equations associated with a batch reactor, focusing on understanding the underlying chemical processes and dynamic behavior. This includes analyzing the rate of reactions, determining key parameters influencing reaction efficiency, and applying mathematical modeling to represent the reactor's performance. Ultimately, the project seeks to develop and implement optimization techniques to improve the reactor's efficiency, enhance product yield, reduce operational costs, and ensure sustainable and safe process operation.
 
-#ADVANTAGES AND DISADVANTAGES OF BATCH REACTORS
+# ADVANTAGES AND DISADVANTAGES OF BATCH REACTORS
 Advantages
 Advantages of batch reactors include flexibility in operation, ease of maintenance, 
 and the ability to handle high-viscosity materials or reactions with solid phases
